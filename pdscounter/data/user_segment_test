@@ -1,0 +1,47 @@
+<?xml version = "1.0" ?>
+<?xml:stylesheet type="text/xsl" href="user_segment.xsl"?>
+<!DOCTYPE GRID [
+  <!ELEMENT GRID (BANDS, COLUMNS, ROWS*)>
+  <!ATTLIST GRID ExportVersion CDATA #REQUIRED>
+  <!ELEMENT BANDS (BAND*)>
+  <!ELEMENT BAND EMPTY>
+  <!ATTLIST BAND Index CDATA #REQUIRED>
+  <!ATTLIST BAND Caption CDATA #IMPLIED>
+  <!ELEMENT COLUMNS (COLUMN*)>
+  <!ELEMENT COLUMN EMPTY>
+  <!ATTLIST COLUMN Name CDATA #REQUIRED>
+  <!ATTLIST COLUMN Caption CDATA #IMPLIED>
+  <!ATTLIST COLUMN Index CDATA #REQUIRED>
+  <!ATTLIST COLUMN BandIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN RowIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN ColIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN Width CDATA #IMPLIED>
+  <!ELEMENT GROUP (GROUP*, ROW*)>
+  <!ATTLIST GROUP GroupText CDATA #IMPLIED>
+  <!ELEMENT ROWS (ROW*)>
+  <!ELEMENT ROW EMPTY>
+  <!ATTLIST ROW dbGridColumn1 CDATA #IMPLIED>
+  <!ATTLIST ROW dbGridColumn2 CDATA #IMPLIED>
+  <!ATTLIST ROW dbGridColumn3 CDATA #IMPLIED>
+  <!ATTLIST ROW dbGridColumn4 CDATA #IMPLIED>
+]>
+<GRID ExportVersion="1.0">
+  <BANDS>
+    <BAND Index="0" Caption=""></BAND>
+    <BAND Index="1" Caption=""></BAND>
+  </BANDS>
+  <COLUMNS>
+    <COLUMN Name="dbGridColumn4" Caption="Row&#35;" Index="3" BandIndex="0" RowIndex="0" ColIndex="0" Width="90"></COLUMN>
+    <COLUMN Name="dbGridColumn1" Caption="CAMPAIGN_ID" Index="0" BandIndex="1" RowIndex="0" ColIndex="0" Width="116"></COLUMN>
+    <COLUMN Name="dbGridColumn2" Caption="MESSAGE_ID" Index="1" BandIndex="1" RowIndex="0" ColIndex="1" Width="112"></COLUMN>
+    <COLUMN Name="dbGridColumn3" Caption="LOGIC" Index="2" BandIndex="1" RowIndex="0" ColIndex="2" Width="293"></COLUMN>
+  </COLUMNS>
+  <ROWS>
+    <ROW dbGridColumn4="" dbGridColumn1="191557" dbGridColumn2="393063" dbGridColumn3="PNL:3034;PPA:10201,0,categoryId;ICH:1;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="191557" dbGridColumn2="393062" dbGridColumn3="PNL:3034;PPA:10201,0,categoryId;ICH:1;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="188188" dbGridColumn2="384412" dbGridColumn3="PNL:11484;PPA:10201,0,categoryId;ICH:1;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="188188" dbGridColumn2="384413" dbGridColumn3="PNL:11484;PPA:10201,0,categoryId;ICH:1;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="194110" dbGridColumn2="399955" dbGridColumn3="PNL:20742;PPA:10201,0,categoryId;ICH:1;"></ROW>
+	<ROW dbGridColumn4="" dbGridColumn1="206615" dbGridColumn2="429828" dbGridColumn3="PPA:10180,0;NOTNULL;"></ROW>
+  </ROWS>
+</GRID>

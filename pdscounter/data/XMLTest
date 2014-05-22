@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ROWS>
+ <ROW dbGridColumn4="" dbGridColumn1="111461" dbGridColumn2="235728" dbGridColumn3="PUA:8,0;NOTNULL;GIF:1;PDL:15 days;DF-Now:0;DSB;PUA:8,lastUpdate;DGT;1&#35;NOP;GIF:2;PUA:65,0;PUA:8,0;NNE;2&#35;NOP;GIF:3;PNL:9884;PNL:14761;PNL:14239;PNL:14770;PNL:30896;PNL:14784;PNL:14780;PPA:10186,0,categoryId;ICH:7;3&#35;NOP;GIF:4;SEG:4,GB_UK_Visitors_20120306_VM_TC_B020C08-00_OV_007ET&#36;;4&#35;NOP;GIF:7;SEG:4,GB_UK_Nectar_PCS_A_recom_20121105_LK_A_RECO&#36;;GIT:5;SEG:4,GB_UK_Nectar_PCS_N_recom_20121105_LK_N_RECO&#36;;5&#35;NOP;GIT:6;SEG:4,GB_UK_Nectar_PCS_Control_20121105_LK_CONTROL&#36;;6&#35;NOP;NOT;7&#35;NOP;"></ROW>
+<ROW dbGridColumn4="" dbGridColumn1="214970" dbGridColumn2="453459" dbGridColumn3="PNL:4250;PPA:10201,0,categoryId;ICH:1;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="214970" dbGridColumn2="453457" dbGridColumn3="PNL:4250;PPA:10201,0,categoryId;ICH:1;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="213353" dbGridColumn2="448677" dbGridColumn3="PNL:4196;PPA:10201,0,categoryId;ICH:1;GIF:2;SEG:9,GL_GenderFemale_Mar06;GIT:1;SEG:9,GL_GenderMale_Mar06;1&#35;NOP;NOT;2&#35;NOP;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="216103" dbGridColumn2="456849" dbGridColumn3="PNL:4250;PNL:1059;PNL:93427;PPA:10201,0,categoryId;ICH:3;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="216103" dbGridColumn2="456848" dbGridColumn3="PNL:4250;PNL:1059;PNL:93427;PPA:10201,0,categoryId;ICH:3;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="215527" dbGridColumn2="455153" dbGridColumn3="PNL:631;PPA:10201,0,categoryId;ICH:1;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="215527" dbGridColumn2="455152" dbGridColumn3="PNL:631;PPA:10201,0,categoryId;ICH:1;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="205431" dbGridColumn2="426785" dbGridColumn3="PNL:625;PPA:10201,0,categoryId;ICH:1;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="205431" dbGridColumn2="426786" dbGridColumn3="PNL:625;PPA:10201,0,categoryId;ICH:1;"></ROW>
+</ROWS> 

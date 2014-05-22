@@ -1,0 +1,48 @@
+<?xml version = "1.0" ?>
+<?xml:stylesheet type="text/xsl" href="message_segment.xsl"?>
+<!DOCTYPE GRID [
+  <!ELEMENT GRID (BANDS, COLUMNS, ROWS*)>
+  <!ATTLIST GRID ExportVersion CDATA #REQUIRED>
+  <!ELEMENT BANDS (BAND*)>
+  <!ELEMENT BAND EMPTY>
+  <!ATTLIST BAND Index CDATA #REQUIRED>
+  <!ATTLIST BAND Caption CDATA #IMPLIED>
+  <!ELEMENT COLUMNS (COLUMN*)>
+  <!ELEMENT COLUMN EMPTY>
+  <!ATTLIST COLUMN Name CDATA #REQUIRED>
+  <!ATTLIST COLUMN Caption CDATA #IMPLIED>
+  <!ATTLIST COLUMN Index CDATA #REQUIRED>
+  <!ATTLIST COLUMN BandIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN RowIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN ColIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN Width CDATA #IMPLIED>
+  <!ELEMENT GROUP (GROUP*, ROW*)>
+  <!ATTLIST GROUP GroupText CDATA #IMPLIED>
+  <!ELEMENT ROWS (ROW*)>
+  <!ELEMENT ROW EMPTY>
+  <!ATTLIST ROW dbGridColumn1 CDATA #IMPLIED>
+  <!ATTLIST ROW dbGridColumn2 CDATA #IMPLIED>
+  <!ATTLIST ROW dbGridColumn3 CDATA #IMPLIED>
+  <!ATTLIST ROW dbGridColumn4 CDATA #IMPLIED>
+]>
+<GRID ExportVersion="1.0">
+  <BANDS>
+    <BAND Index="0" Caption=""></BAND>
+    <BAND Index="1" Caption=""></BAND>
+  </BANDS>
+  <COLUMNS>
+    <COLUMN Name="dbGridColumn4" Caption="Row&#35;" Index="3" BandIndex="0" RowIndex="0" ColIndex="0" Width="60"></COLUMN>
+    <COLUMN Name="dbGridColumn1" Caption="CAMPAIGN_ID" Index="0" BandIndex="1" RowIndex="0" ColIndex="0" Width="116"></COLUMN>
+    <COLUMN Name="dbGridColumn2" Caption="MESSAGE_ID" Index="1" BandIndex="1" RowIndex="0" ColIndex="1" Width="112"></COLUMN>
+    <COLUMN Name="dbGridColumn3" Caption="LOGIC" Index="2" BandIndex="1" RowIndex="0" ColIndex="2" Width="65"></COLUMN>
+  </COLUMNS>
+  <ROWS>
+    <ROW dbGridColumn4="" dbGridColumn1="206484" dbGridColumn2="429456" dbGridColumn3="PNL:1200;PNC:p181;NLT;GIF:1;PDL:30 days;DF-Today:0;DSB;PPA:10180,lastUpdate;DGT;1&#35;NOP;GIF:2;PPA:10180,0;NOTNULL;2&#35;NOP;GIF:3;PPA:10180,1;NOTNULL;3&#35;NOP;GIF:4;PPA:10180,2;NOTNULL;4&#35;NOP;GIF:5;PPA:10180,3;NOTNULL;5&#35;NOP;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="206608" dbGridColumn2="429819" dbGridColumn3="PPA:10184,0;NOTNULL;GIF:1;PPA:10028,0;PPA:10224,0;NNE;1&#35;NOP;GIF:3;PPA:10180,lastUpdate;PPA:10184,lastUpdate;DGE;GIF:2;PPA:10188,lastUpdate;PPA:10184,lastUpdate;DGE;2&#35;NOP;3&#35;NOP;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="206609" dbGridColumn2="429820" dbGridColumn3="PPA:10190,0;NOTNULL;GIF:1;PDL:15 days;DF-Now:0;DSB;PPA:10190,lastUpdate;DGT;1&#35;NOP;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="206611" dbGridColumn2="429822" dbGridColumn3="PPA:10180,0;NOTNULL;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="206612" dbGridColumn2="429823" dbGridColumn3="PPA:10201,0;NOTNULL;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="206614" dbGridColumn2="429827" dbGridColumn3="PPA:10180,0;NOTNULL;"></ROW>
+    <ROW dbGridColumn4="" dbGridColumn1="206615" dbGridColumn2="429828" dbGridColumn3="PPA:10180,0;NOTNULL;"></ROW>
+  </ROWS>
+</GRID>
